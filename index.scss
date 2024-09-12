@@ -79,3 +79,16 @@ body {
     }
   }
 }
+
+.result {
+  &__row {
+    display: flex;
+  }
+  &__container {
+    width: 33vw;
+    padding: 0.75rem;
+  }
+  &__img {
+    width: 100%;
+  }
+}

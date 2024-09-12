@@ -73,4 +73,15 @@ body {
   color: #17bebb;
   border-color: #17bebb;
   padding: 10px 20px;
+}
+
+.result__row {
+  display: flex;
+}
+.result__container {
+  width: 33vw;
+  padding: 0.75rem;
+}
+.result__img {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
