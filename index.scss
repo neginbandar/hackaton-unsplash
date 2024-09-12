@@ -1,6 +1,6 @@
 @import "./partials/global";
 body {
-  background-color: rgb(139, 255, 139);
+  background-color: $color1;
 }
 
 .hero {
@@ -23,7 +23,7 @@ body {
     align-items: center;
   }
   &__title {
-    color: #9dee7a;
+    color: $color4;
     // position: absolute;
     // top: 20vw;
     // left: 23vw;
@@ -40,29 +40,29 @@ body {
     display: flex;
     justify-content: space-evenly;
 
-    border: 2px solid #9dee7a;
-    background-color: #9dee7a;
+    border: 2px solid $color1;
+    background-color: $color1;
     border-radius: 10px;
   }
 
   &__search {
-    background-color: #9dee7a;
+    background-color: $color1;
     border: none;
     outline: none;
     &:focus {
-      background-color: #9dee7a;
-      color: rgb(35, 73, 33);
+      background-color: $color1;
+      color: $color2;
     }
     &::placeholder {
-      color: rgb(35, 73, 33);
+      color: $color2;
       font-size: 16px;
     }
   }
 
   &__button {
-    background-color: #9dee7a;
-    color: rgb(35, 73, 33);
-    border: 2px solid rgb(35, 73, 33);
+    background-color: $color1;
+    color: $color2;
+    border: 2px solid $color2;
 
     font-size: 16px;
     border-radius: 8px;
@@ -72,9 +72,9 @@ body {
     justify-content: center;
     align-items: center;
     &:hover {
-      background-color: rgb(35, 73, 33);
-      color: #9dee7a;
-      border-color: #9dee7a;
+      background-color: $color2;
+      color: $color1;
+      border-color: $color1;
       padding: 10px 20px;
     }
   }
