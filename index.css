@@ -9,8 +9,8 @@ body {
 }
 
 .hero__imgContainer {
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 .hero__img {
   width: 100%;
@@ -22,7 +22,7 @@ body {
   position: absolute;
   top: 1pvw;
   top: 18vw;
-  left: 25vw;
+  left: 27vw;
   align-items: center;
 }
 .hero__title {
@@ -77,6 +77,7 @@ body {
 
 .result__row {
   display: flex;
+  align-items: center;
 }
 .result__container {
   width: 33vw;
