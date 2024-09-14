@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+$color1: #a5e9d3;
+$color2: #12263A;
+$color3: #C5D8D1;
+$color5: #f5f6b6;
+$color4: #f9bbfa;
+
+html {
+  // font-family: "Chakra Petch", sans-serif;
+  font-family: "Lato", sans-serif;
+  background-color: $color1;
+}

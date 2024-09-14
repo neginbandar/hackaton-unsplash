@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ImageVista</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script src="http://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="webapi.js" defer></script>
+    <script src="elementGen.js" type="module" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="nav">
+        <img src="./assets/hero__logo div.svg" alt="" class="nav__logo">
+      </div>
+
+      <section class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__titleForm">
+          <h1 class="hero__title">ImageVista: Explore the Visual World</h1>
+          <h2 class="hero__slogan">Powered by Unsplash</h2>
+          <form class="hero__formInput">
+            <input
+              type="text"
+              ,
+              name="search"
+              ,
+              placeholder="Search for photos"
+              required
+              class="hero__search"
+            />
+            <button type="submit" class="hero__button">Search</button>
+          </form>
+        </div>
+      </section>
+
+    <div class="image-container"></div>
+   
+  </body>
+</html>
